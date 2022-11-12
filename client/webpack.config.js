@@ -50,7 +50,20 @@ module.exports = () => {
 
     module: {
       rules: [
-        
+        {
+          test: /\.css$/i,
+          use: ['stylr-loader', 'css-loader'],
+        },
+        {
+          test: /\.m?js$/,
+          exclude: /node_modules/,
+          use: {
+            loader: 'babel-loader',
+            options: {
+              presets: ['@babel/plugin-proposal-object-rest-spread', '@babel/transform-runtime',],
+            },
+          },
+        },
       ],
     },
   };
