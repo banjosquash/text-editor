@@ -7,7 +7,7 @@
 ![](client/src/images/2022-11-15%20(1).png)
 ![](client/src/images/2022-11-15.png)
 
-## link to video deployed app
+## link to deployed app
 https://frozen-beach-93593.herokuapp.com/
 
 ## Description:
